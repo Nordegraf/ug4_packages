@@ -1,0 +1,98 @@
+{
+	"minUGHubVersion": "1.0.0",
+	"packages": [
+		{
+			"name": "gtestForUG4",
+			"url": "https://github.com/Nordegraf/external_gtestForUG4.git",
+			"repoType": "git",
+			"defaultBranch": "main",
+			"prefix": "externals",
+			"license": "bsd3-style",
+			"categories": [
+				"externals"
+			]
+		},
+		{
+			"name": "RetentionCurves",
+			"url": "https://github.com/Nordegraf/plugin_RetentionCurves.git",
+			"repoType": "git",
+			"defaultBranch": "main",
+			"prefix": "plugins",
+			"license": "lgpl_ug4",
+			"categories": [
+				"ug4",
+				"plugins"
+			],
+			"dependencies": [
+				{
+					"packages": [
+						{
+							"name": "ugcore",
+							"branch": "master"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "unsat_flow_app",
+			"url": "https://github.com/Nordegraf/unsat_flow.git",
+			"repoType": "git",
+			"defaultBranch": "main",
+			"prefix": "apps",
+			"license": "",
+			"categories": [
+				"ug4",
+				"apps"
+			],
+			"dependencies": [
+				{
+					"packages": [
+						{
+							"name": "ConvectionDiffusion",
+							"branch": "master"
+						},
+						{
+							"name": "ADTools",
+							"branch": "main"
+						},
+						{
+							"name": "Richards",
+							"branch": "main"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "porous_media_nitrification",
+			"url": "https://github.com/Nordegraf/porous_media_nitrification.git",
+			"repoType": "git",
+			"defaultBranch": "main",
+			"prefix": "apps",
+			"license": "",
+			"categories": [
+				"ug4",
+				"apps"
+			],
+			"dependencies": [
+				{
+					"packages": [
+						{
+							"name": "ConvectionDiffusion",
+							"branch": "master"
+						},
+						{
+							"name": "ADTools",
+							"branch": "main"
+						},
+						{
+							"name": "Richards",
+							"branch": "main"
+						}
+					]
+				}
+			]
+		}
+	]
+}
