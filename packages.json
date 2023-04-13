@@ -2,14 +2,14 @@
 	"minUGHubVersion": "1.0.0",
 	"packages": [
 		{
-			"name": "gtestForUG4",
-			"url": "https://github.com/Nordegraf/external_gtestForUG4.git",
+			"name": "gtest",
+			"url": "https://github.com/Nordegraf/plugin_gtest.git",
 			"repoType": "git",
 			"defaultBranch": "main",
 			"prefix": "plugins",
 			"license": "bsd3-style",
 			"categories": [
-				"externals"
+				"plugins"
 			]
 		},
 		{
@@ -34,6 +34,37 @@
 				}
 			]
 		},
+		{
+			"name": "UG4Tests",
+			"url": "https://github.com/Nordegraf/UG4Tests.git",
+			"repoType": "git",
+			"defaultBranch": "main",
+			"prefix": "plugins",
+			"license": "lgpl_ug4",
+			"categories": [
+				"ug4",
+				"plugins"
+			],
+			"dependencies": [
+				{
+					"packages": [
+						{
+							"name": "ugcore",
+							"branch": "master"
+						},
+						{
+							"name": "ConvectionDiffusion",
+							"branch": "master"
+						},
+						{
+							"name": "gtest",
+							"branch": "main"
+						}
+					]
+				}
+			]
+		},
+
 		{
 			"name": "unsat_flow_app",
 			"url": "https://github.com/Nordegraf/unsat_flow.git",
