@@ -6,7 +6,7 @@
 			"url": "https://github.com/Nordegraf/external_gtestForUG4.git",
 			"repoType": "git",
 			"defaultBranch": "main",
-			"prefix": "externals",
+			"prefix": "plugins",
 			"license": "bsd3-style",
 			"categories": [
 				"externals"
