@@ -2,6 +2,17 @@
 	"minUGHubVersion": "1.0.0",
 	"packages": [
 		{
+			"name": "autodiff",
+			"url": "https://github.com/Nordegraf/plugin_autodiff.git",
+			"repoType": "git",
+			"defaultBranch": "main",
+			"prefix": "plugins",
+			"license": "MIT",
+			"categories": [
+				"plugins"
+			]
+		},
+		{
 			"name": "gtest",
 			"url": "https://github.com/Nordegraf/plugin_gtest.git",
 			"repoType": "git",
