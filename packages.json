@@ -2,17 +2,6 @@
 	"minUGHubVersion": "1.0.0",
 	"packages": [
 		{
-			"name": "autodiff",
-			"url": "https://github.com/Nordegraf/plugin_autodiff.git",
-			"repoType": "git",
-			"defaultBranch": "main",
-			"prefix": "plugins",
-			"license": "MIT",
-			"categories": [
-				"plugins"
-			]
-		},
-		{
 			"name": "gtest",
 			"url": "https://github.com/Nordegraf/plugin_gtest.git",
 			"repoType": "git",
@@ -21,28 +10,6 @@
 			"license": "bsd3-style",
 			"categories": [
 				"plugins"
-			]
-		},
-		{
-			"name": "RetentionCurves",
-			"url": "https://github.com/Nordegraf/plugin_RetentionCurves.git",
-			"repoType": "git",
-			"defaultBranch": "main",
-			"prefix": "plugins",
-			"license": "lgpl_ug4",
-			"categories": [
-				"ug4",
-				"plugins"
-			],
-			"dependencies": [
-				{
-					"packages": [
-						{
-							"name": "ugcore",
-							"branch": "master"
-						}
-					]
-				}
 			]
 		},
 		{
@@ -75,7 +42,6 @@
 				}
 			]
 		},
-
 		{
 			"name": "unsat_flow_app",
 			"url": "https://github.com/Nordegraf/unsat_flow.git",
