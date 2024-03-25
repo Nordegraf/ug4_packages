@@ -44,7 +44,7 @@
 		},
 		{
 			"name": "unsat_flow_app",
-			"url": "https://github.com/Nordegraf/unsat_flow.git",
+			"url": "https://github.com/UG4/unsat_flow.git",
 			"repoType": "git",
 			"defaultBranch": "main",
 			"prefix": "apps",
@@ -61,7 +61,7 @@
 							"branch": "master"
 						},
 						{
-							"name": "ADTools",
+							"name": "AutodiffForUG4",
 							"branch": "main"
 						},
 						{
